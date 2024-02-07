@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Header() {
     return (
         <header>
-            <div className="flex justify-between p-6 shadow-md items-center">
+            <div className="flex justify-between p-6 items-center">
                 <Link className="font-worksansbold text-[25px] text-secondary ml-5" href={'#'}>dave.dev</Link>
                 <nav className="">
                     <ul className="flex flex-row gap-5 mr-5">
