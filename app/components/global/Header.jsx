@@ -11,16 +11,16 @@ export default function Header() {
                 <nav className="">
                     <ul className="flex flex-row gap-5 mr-5">
                         <li>
-                            <Link className="font-worksanssemibold hover:text-primary text-secondary text-[17px] underline decoration-2 underline-offset-4 decoration-primary" href={'#'}>Home</Link>
+                            <Link className="font-worksanssemibold hover:text-primary text-secondary text-[17px]" href={'#'}>Home</Link>
                         </li>
                         <li>
-                            <Link className="font-worksanssemibold hover:text-primary text-secondary text-[17px] underline decoration-2 underline-offset-4 decoration-primary" href={'#'}>Projects</Link>
+                            <Link className="font-worksanssemibold hover:text-primary text-secondary text-[17px]" href={'#'}>Projects</Link>
                         </li>
                         <li>
-                            <Link className="font-worksanssemibold hover:text-primary text-secondary text-[17px] underline decoration-2 underline-offset-4 decoration-primary" href={'#'}>About</Link>
+                            <Link className="font-worksanssemibold hover:text-primary text-secondary text-[17px]" href={'#'}>About</Link>
                         </li>
                         <li>
-                            <Link className="font-worksanssemibold hover:text-primary text-secondary text-[17px] underline decoration-2 underline-offset-4 decoration-primary" href={'#'}>Contact</Link>
+                            <Link className="font-worksanssemibold hover:text-primary text-secondary text-[17px]" href={'#'}>Contact</Link>
                         </li>
                     </ul>
                 </nav>

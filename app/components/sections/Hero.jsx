@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { githubIcon, linkedIcon, htmlIcon, cssIcon, javascriptIcon, typescriptIcon, reactIcon, nextIcon, tailwindIcon, sassIcon, pinIcon } from "../../assets/";
+import { htmlIcon, cssIcon, javascriptIcon, typescriptIcon, reactIcon, nextIcon, tailwindIcon, sassIcon, pinIcon } from "../../assets/";
 
 
 export default function Hero() {
@@ -9,20 +9,23 @@ export default function Hero() {
             <div className="flex flex-col p-4">
 
                 <div>
-                    <h1 className="mb-[20px] text-[55px] font-worksansbold">Front End React<br/>Developer</h1>
-                    <h2 className="mb-[20px] font-worksansregular">Hi, I'm Dave. A passionate Front-End React<br/>Developer based in Vancouver, BC.<Image className="w-6" src={ pinIcon }/></h2>
-                    <div className="flex gap-2">
-                        <Link href={'#'} className="">
-                            <Image className="w-[34px]" src={ linkedIcon }/>
+                    <h1 className="mb-[20px] text-[75px] font-worksansbold text-transparent bg-clip-text  bg-gradient-to-r from-cyan-300 to-blue-500 animate-text">Front End React<br/>Developer</h1>
+                    <h2 className="mb-[20px] font-worksanslight text-[24px] text-secondary">Hi, I'm Dave! A passionate Front-End React<br/>Developer based in Vancouver, BC.</h2>
+                    <div className="flex gap-6">
+                        <Link href={'#'}>
+                            <p className="font-worksansregular text-secondary text-[17px] underline decoration-2 underline-offset-4 decoration-primary hover:-translate-y-1 hover:text-primary">LinkedIn</p>
                         </Link>
                         <Link href={'#'}>
-                            <Image className="w-[34px]" src={ githubIcon }/>
+                            <p className="font-worksansregular text-secondary text-[17px] underline decoration-2 underline-offset-4 decoration-primary hover:-translate-y-1 hover:text-primary">Github</p>
+                        </Link>
+                        <Link href={'#'}>
+                            <p className="font-worksansregular text-secondary text-[17px] underline decoration-2 underline-offset-4 decoration-primary hover:-translate-y-1 hover:text-primary">Resume</p>
                         </Link>
                     </div>
                 </div>
             
-                <div className="flex flex-row mt-[20px] gap-[30px]">
-                    <h2 className="flex items-center font-worksansmedium text-[18px]">Tech Stack |</h2>
+                <div className="flex flex-row mt-[80px] gap-[30px]">
+                    <h2 className="flex items-center font-worksansmedium text-[18px] text-secondary">Tech Stack |</h2>
                     <div className="flex gap-[8px]">
                         <Link href={'#'}>
                             <Image className="w-[40px]" src={htmlIcon} alt="HTML5"/>
