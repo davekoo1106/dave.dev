@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "WorkSans-Regular";
+  src: url("./assets/fonts/worksans/WorkSans-Regular.ttf");
+}
+@font-face {
+  font-family: "WorkSans-Medium";
+  src: url("./assets/fonts/worksans/WorkSans-Medium.ttf");
+}
+@font-face {
+  font-family: "WorkSans-Bold";
+  src: url("./assets/fonts/worksans/WorkSans-Bold.ttf");
+}
+@font-face {
+  font-family: "WorkSans-SemiBold";
+  src: url("./assets/fonts/worksans/WorkSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: "WorkSans-Light";
+  src: url("./assets/fonts/worksans/WorkSans-Light.ttf");
+}
+@font-face {
+  font-family: "WorkSans-BoldItalic";
+  src: url("./assets/fonts/worksans/WorkSans-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "WorkSans-LightItalic";
+  src: url("./assets/fonts/worksans/WorkSans-LightItalic.ttf");
+}
+@font-face {
+  font-family: "WorkSans-Italic";
+  src: url("./assets/fonts/worksans/WorkSans-Italic.ttf");
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
