@@ -11,16 +11,16 @@ export default function Header() {
                 <nav className="">
                     <ul className="flex flex-row gap-5 mr-5">
                         <li>
-                            <Link className="font-worksanssemibold hover:text-primary text-secondary text-[17px]" href={'#'}>Home</Link>
+                            <Link className="font-worksanssemibold hover:underline hover:decoration-primary hover:decoration-2 hover:underline-offset-4 text-secondary text-[17px]" href={'#'}>Home</Link>
                         </li>
                         <li>
-                            <Link className="font-worksanssemibold hover:text-primary text-secondary text-[17px]" href={'#'}>Projects</Link>
+                            <Link className="font-worksanssemibold hover:underline hover:decoration-primary hover:decoration-2 hover:underline-offset-4 text-secondary text-[17px]" href={'#'}>Projects</Link>
                         </li>
                         <li>
-                            <Link className="font-worksanssemibold hover:text-primary text-secondary text-[17px]" href={'#'}>About</Link>
+                            <Link className="font-worksanssemibold hover:underline hover:decoration-primary hover:decoration-2 hover:underline-offset-4 text-secondary text-[17px]" href={'#'}>About</Link>
                         </li>
                         <li>
-                            <Link className="font-worksanssemibold hover:text-primary text-secondary text-[17px]" href={'#'}>Contact</Link>
+                            <Link className="font-worksanssemibold hover:underline hover:decoration-primary hover:decoration-2 hover:underline-offset-4 text-secondary text-[17px]" href={'#'}>Contact</Link>
                         </li>
                     </ul>
                 </nav>

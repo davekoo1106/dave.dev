@@ -9,7 +9,7 @@ import nextIcon from "./images/tech-icons/nextdotjs-color.svg";
 import tailwindIcon from "./images/tech-icons/tailwindcss-color.svg";
 import sassIcon from "./images/tech-icons/sass-color.svg";
 import pinIcon from "./images/social-icons/pin.svg";
-
+import rxpressThumb from "./images/project-thumb/rxpress.jpg";
 
 export {
     githubIcon,
@@ -22,5 +22,6 @@ export {
     nextIcon,
     tailwindIcon,
     sassIcon,
-    pinIcon
+    pinIcon,
+    rxpressThumb
 };

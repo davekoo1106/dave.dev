@@ -13,13 +13,13 @@ export default function Hero() {
                     <h2 className="mb-[20px] font-worksanslight text-[24px] text-secondary">Hi, I'm Dave! A passionate Front-End React<br/>Developer based in Vancouver, BC.</h2>
                     <div className="flex gap-6">
                         <Link href={'#'}>
-                            <p className="font-worksansregular text-secondary text-[17px] underline decoration-2 underline-offset-4 decoration-primary hover:-translate-y-1 hover:text-primary">LinkedIn</p>
+                            <p className="font-worksans text-secondary text-[17px] underline decoration-2 underline-offset-4 decoration-primary hover:-translate-y-1 hover:text-primary">LinkedIn</p>
                         </Link>
                         <Link href={'#'}>
-                            <p className="font-worksansregular text-secondary text-[17px] underline decoration-2 underline-offset-4 decoration-primary hover:-translate-y-1 hover:text-primary">Github</p>
+                            <p className="font-worksans text-secondary text-[17px] underline decoration-2 underline-offset-4 decoration-primary hover:-translate-y-1 hover:text-primary">Github</p>
                         </Link>
                         <Link href={'#'}>
-                            <p className="font-worksansregular text-secondary text-[17px] underline decoration-2 underline-offset-4 decoration-primary hover:-translate-y-1 hover:text-primary">Resume</p>
+                            <p className="font-worksans text-secondary text-[17px] underline decoration-2 underline-offset-4 decoration-primary hover:-translate-y-1 hover:text-primary">Resume</p>
                         </Link>
                     </div>
                 </div>
