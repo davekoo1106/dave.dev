@@ -11,7 +11,7 @@ export default function Projects() {
                     <div className="flex flex-col h-full w-full bg-white rounded-lg dark:bg-gray-800 hover:-translate-y-2 hover:ease-in-out hover:duration-500">
                         <Image className="border border-gray-200 rounded-md" src={ rxpressThumb }/>
                         <div className="">
-                            <h1 className="text-[28px] font-worksanssemibold text-secondary">RxPress</h1>
+                            <h1 className="mt-2 text-[28px] font-worksanssemibold text-secondary">RxPress</h1>
                             <p className="text-[18px] font-worksans text-secondary">Prescription Delivery Web Platform</p>
                         </div>
                     </div>
@@ -19,7 +19,7 @@ export default function Projects() {
                     <div className="flex flex-col h-full w-full bg-white rounded-lg dark:bg-gray-800 hover:-translate-y-2 hover:ease-in-out hover:duration-500">
                         <Image className="border border-gray-200 rounded-md" src={ rxpressThumb }/>
                         <div className="">
-                            <h1 className="text-[28px] font-worksanssemibold text-secondary">RxPress</h1>
+                            <h1 className="mt-2 text-[28px] font-worksanssemibold text-secondary">RxPress</h1>
                             <p className="text-[18px] font-worksans text-secondary">Prescription Delivery Web Platform</p>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ export default function Projects() {
                     <div className="flex flex-col h-full w-full bg-white rounded-lg dark:bg-gray-800 hover:-translate-y-2 hover:ease-in-out hover:duration-500">
                         <Image className="border border-gray-200 rounded-md" src={ rxpressThumb }/>
                         <div className="">
-                            <h1 className="text-[28px] font-worksanssemibold text-secondary">RxPress</h1>
+                            <h1 className="mt-2 text-[28px] font-worksanssemibold text-secondary">RxPress</h1>
                             <p className="text-[18px] font-worksans text-secondary">Prescription Delivery Web Platform</p>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ export default function Projects() {
                     <div className="flex flex-col h-full w-full bg-white rounded-lg dark:bg-gray-800 hover:-translate-y-2 hover:ease-in-out hover:duration-500">
                         <Image className="border border-gray-200 rounded-md" src={ rxpressThumb }/>
                         <div className="">
-                            <h1 className="text-[28px] font-worksanssemibold text-secondary">RxPress</h1>
+                            <h1 className="mt-2 text-[28px] font-worksanssemibold text-secondary">RxPress</h1>
                             <p className="text-[18px] font-worksans text-secondary">Prescription Delivery Web Platform</p>
                         </div>
                     </div>
