@@ -28,31 +28,31 @@ export default function Hero() {
                     <h2 className="flex items-center font-worksansmedium text-[18px] text-secondary">Tech Stack |</h2>
                     <div className="flex gap-[8px]">
                         <Link href={'#'}>
-                            <Image className="w-[40px]" src={htmlIcon} alt="HTML5"/>
+                            <Image className="w-[40px]" src={htmlIcon} alt="HTML5 Logo"/>
                         </Link>
                         <Link href={'#'}>
-                            <Image className="w-[40px]" src={cssIcon} alt="CSS3"/>
-                        </Link>
-                    </div>
-                    <div className="flex gap-[8px]">
-                        <Link href={'#'}>
-                            <Image className="w-[40px]" src={javascriptIcon} alt="JavaScript"/>
-                        </Link>
-                        <Link href={'#'}>
-                            <Image className="w-[40px]" src={typescriptIcon} alt="TypeScript"/>
+                            <Image className="w-[40px]" src={cssIcon} alt="CSS3 Logo"/>
                         </Link>
                     </div>
                     <div className="flex gap-[8px]">
                         <Link href={'#'}>
-                            <Image className="w-[40px]" src={reactIcon} alt="React.js"/>
+                            <Image className="w-[40px]" src={javascriptIcon} alt="JavaScript Logo"/>
                         </Link>
                         <Link href={'#'}>
-                            <Image className="w-[40px]" src={nextIcon} alt="Next.js"/>
+                            <Image className="w-[40px]" src={typescriptIcon} alt="TypeScript Logo"/>
                         </Link>
                     </div>
                     <div className="flex gap-[8px]">
                         <Link href={'#'}>
-                            <Image className="w-[40px]" src={tailwindIcon} alt="Tailwind CSS"/>
+                            <Image className="w-[40px]" src={reactIcon} alt="React.js Logo"/>
+                        </Link>
+                        <Link href={'#'}>
+                            <Image className="w-[40px]" src={nextIcon} alt="Next.js Logo"/>
+                        </Link>
+                    </div>
+                    <div className="flex gap-[8px]">
+                        <Link href={'#'}>
+                            <Image className="w-[40px]" src={tailwindIcon} alt="Tailwind CSS Logo"/>
                         </Link>
                         <Link href={'#'}>
                             <Image className="w-[40px]" src={sassIcon} alt="SCSS"/>
