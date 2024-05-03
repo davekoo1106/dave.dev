@@ -2,5 +2,4 @@
   "extends": "next/core-web-vitals",
   "rules": { "react/no-escaped-entities": 0 },
   "jsx-quotes": "off"
-
 }
