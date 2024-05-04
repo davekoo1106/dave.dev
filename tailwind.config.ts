@@ -27,14 +27,14 @@ const config: Config = {
         worksanslight: ['WorkSans-Light','sans-serif'],
         worksanslightitalic: ['WorkSans-LightItalic','sans-serif']
       },
-      'animation': {
-        'text': 'text 3s ease-in-out infinite',
+      animation: {
+        text: 'text 4s ease-in-out infinite',
       },
-      'keyframes': {
-        'text': {
+      keyframes: {
+        text: {
           '0%, 100%': {
             'background-size':'200% 200%',
-            'background-position': 'right center'
+            'background-position': 'left center'
           },
           '50%': {
             'background-size':'200% 200%',

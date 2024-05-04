@@ -7,7 +7,7 @@ import { htmlIcon, cssIcon, javascriptIcon, typescriptIcon, reactIcon, nextIcon,
 
 export default function Hero() {
         const lenis = useLenis(({ scroll }) => {
-            
+
         })
 
         return (
@@ -16,18 +16,18 @@ export default function Hero() {
                     <div className="flex flex-col p-4">
         
                         <div>
-                            <h1 className="mb-[20px] text-[75px] font-worksansbold text-transparent bg-clip-text  bg-gradient-to-r from-cyan-300 to-blue-500 animate-text">Front End React<br/>Developer</h1>
+                            <h1 className="mb-[20px] text-[75px] font-worksansbold text-transparent bg-clip-text  bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-400 animate-text">Front End React<br/>Developer</h1>
                             <h2 className="mb-[20px] font-worksanslight text-[24px] text-secondary">Hi, I'm Dave! A passionate Front-End React<br/>Developer based in Vancouver, BC.</h2>
                             <div className="flex gap-6">
-                                <Link href={'#'}>
+                                <Link href={'https://www.linkedin.com/in/dave-koo/'} target="_blank">
                                     <p className="font-worksans text-secondary text-[17px] underline decoration-2 underline-offset-4 decoration-primary hover:-translate-y-1 hover:text-primary">LinkedIn</p>
                                 </Link>
-                                <Link href={'#'}>
+                                <Link href={'https://github.com/davekoo1106'} target="_blank">
                                     <p className="font-worksans text-secondary text-[17px] underline decoration-2 underline-offset-4 decoration-primary hover:-translate-y-1 hover:text-primary">Github</p>
                                 </Link>
-                                <Link href={'#'}>
+                                {/* <Link href={'#'}>
                                     <p className="font-worksans text-secondary text-[17px] underline decoration-2 underline-offset-4 decoration-primary hover:-translate-y-1 hover:text-primary">Resume</p>
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                     
