@@ -10,6 +10,7 @@ import tailwindIcon from "./images/tech-icons/tailwindcss-color.svg";
 import sassIcon from "./images/tech-icons/sass-color.svg";
 import pinIcon from "./images/social-icons/pin.svg";
 import rxpressThumb from "./images/project-thumb/rxpress.jpg";
+import previewArrow from "./images/arrows/arrow-up-right.svg";
 
 export {
     githubIcon,
@@ -23,5 +24,6 @@ export {
     tailwindIcon,
     sassIcon,
     pinIcon,
-    rxpressThumb
+    rxpressThumb,
+    previewArrow
 };

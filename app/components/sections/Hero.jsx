@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ReactLenis, useLenis } from 'lenis/react';
-import { htmlIcon, cssIcon, javascriptIcon, typescriptIcon, reactIcon, nextIcon, tailwindIcon, sassIcon, pinIcon } from "../../assets/";
+import { htmlIcon, cssIcon, javascriptIcon, typescriptIcon, reactIcon, nextIcon, tailwindIcon, sassIcon, } from "../../assets/";
 
 
 export default function Hero() {
