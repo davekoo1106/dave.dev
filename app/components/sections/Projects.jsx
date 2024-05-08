@@ -9,10 +9,15 @@ export default function Projects() {
     })
         return (
             <ReactLenis root>
+                
                 <main className="flex items-center justify-center my-20">
                     <div className="flex flex-col gap-20">
+
+                        <div className="text-center">
+                            <h1 className="font-worksansbold text-[30px] text-secondary">Projects</h1>
+                        </div>
+
                         <div className="flex gap-20">
-        
                             <div className="flex flex-col h-full w-full bg-white rounded-lg dark:bg-gray-800 hover:-translate-y-2 hover:ease-in-out hover:duration-500">
                                 <Image className="border border-gray-200 rounded-md" src={ rxpressThumb }/>
                                 <div className="">
