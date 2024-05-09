@@ -15,7 +15,9 @@ const config: Config = {
       },
       colors: {
         primary: '#2B77E7',
-        secondary: '#222f3e'
+        secondary: '#222f3e',
+        background: '#fcfcfc',
+        text: '#32302f',
       },
       fontFamily: {
         worksans: ['WorkSans-Regular', 'sans-serif'],
