@@ -16,8 +16,9 @@ const config: Config = {
       colors: {
         primary: '#2B77E7',
         secondary: '#222f3e',
-        background: '#fcfcfc',
+        background: '#EDF2F7',
         text: '#32302f',
+        header: '#3182CE'
       },
       fontFamily: {
         worksans: ['WorkSans-Regular', 'sans-serif'],
@@ -42,7 +43,7 @@ const config: Config = {
             'background-size':'200% 200%',
             'background-position':'right center'
           }
-        }
+        },
       }
     },
   },

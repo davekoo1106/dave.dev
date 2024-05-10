@@ -14,23 +14,23 @@ export const HoverImageLinks = () => {
         return (
             <ReactLenis root>
                 
-                    <div className="flex flex-col bg-background">
-                        <div className="text-center my-4">
-                            <h1 className="font-worksansbold text-[30px] text-text">Projects</h1>
+                    <div className="flex flex-col py-[150px]">
+                        <div className="my-4 pl-[390px]">
+                            <h1 className="font-worksansbold text-[30px] text-header">PROJECTS</h1>
                         </div>
 
                         <section>
-                            <div>
+                            <div className="px-40">
                                 <Link
                                     heading="Nova Financial"
                                     subheading="All in one financial Management Platform"
-                                    imgSrc="/assets/images/project-thumb/rxpress.jpg"
+                                    // imgSrc="/assets/images/project-thumb/rxpress.jpg"
                                     href="#"
                                 />
                                 <Link
                                     heading="Nova Financial"
                                     subheading="All in one financial Management Platform"
-                                    imgSrc={rxpressThumb}
+                                    // imgSrc={rxpressThumb}
                                     href="#"
                                 />
                             </div>

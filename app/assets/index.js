@@ -11,6 +11,11 @@ import sassIcon from "./images/tech-icons/sass-color.svg";
 import pinIcon from "./images/social-icons/pin.svg";
 import rxpressThumb from "./images/project-thumb/rxpress.jpg";
 import previewArrow from "./images/arrows/arrow-up-right.svg";
+import githubLineBlack from "./images/social-icons/github-line-black.svg";
+import githubLineWhite from "./images/social-icons/github-line-white.svg";
+import linkedinLineWhite from "./images/social-icons/linkedin-line-white.svg";
+import linkedinLineBlack from "./images/social-icons/linkedin-line-black.svg";
+import headshot from "./images/headshot/headshot.jpg";
 
 export {
     githubIcon,
@@ -25,5 +30,10 @@ export {
     sassIcon,
     pinIcon,
     rxpressThumb,
-    previewArrow
+    previewArrow,
+    githubLineBlack,
+    githubLineWhite,
+    linkedinLineWhite,
+    linkedinLineBlack,
+    headshot
 };

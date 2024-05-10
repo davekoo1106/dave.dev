@@ -14,7 +14,7 @@ export const Projects = () => {
         return (
             <ReactLenis root>
                 
-                <main className="flex items-center justify-center bg-background">
+                <main className="flex items-center justify-center">
                     <div className="flex flex-col">
 
                         <div className="text-center my-4">

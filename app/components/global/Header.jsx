@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <header className="bg-background border-b">
+        <header className="border-b">
             <div className="flex justify-between p-6 items-center">
                 <Link className="font-worksansbold text-[25px] text-text ml-5" href={'#'}>dave.dev</Link>
                 <nav className="">
