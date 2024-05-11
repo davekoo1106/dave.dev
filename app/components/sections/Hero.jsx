@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ReactLenis, useLenis } from 'lenis/react';
-import { htmlIcon, cssIcon, javascriptIcon, typescriptIcon, reactIcon, nextIcon, tailwindIcon, sassIcon, headshot } from "../../assets/";
+import { htmlIcon, cssIcon, javascriptIcon, typescriptIcon, reactIcon, nextIcon, tailwindIcon, sassIcon, headshot,memojiWaving } from "../../assets/";
 
 
 export default function Hero() {
@@ -15,10 +15,10 @@ export default function Hero() {
                 <div className="flex items-center justify-center bg-background h-dvh ">
                     <div className="flex flex-col">
         
-                            <div className="flex gap-10">
+                            <div className="flex gap-14">
                                 <div>
                                     <h1 className="mb-[20px] text-[75px] font-worksansbold text-transparent bg-clip-text  bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-400 animate-text">Front-End React<br/>Developer</h1>
-                                    <h2 className="font-worksans text-[20px] text-text">Hi, I'm Dave! A passionate Front-End React Developer combining <br/> code, business, and design to create lasting products and experiences.
+                                    <h2 className="font-worksans text-[20px] w-[700px] text-text p-2">Hey! My name is Dave, A passionate Front-End React Developer combining code, business, and design to create lasting products and experiences.
                                     </h2>
                                 </div>
                                 <div>

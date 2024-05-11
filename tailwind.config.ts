@@ -18,7 +18,8 @@ const config: Config = {
         secondary: '#222f3e',
         background: '#EDF2F7',
         text: '#32302f',
-        header: '#3182CE'
+        header: '#3182CE',
+        paragraph: '#4A5568'
       },
       fontFamily: {
         worksans: ['WorkSans-Regular', 'sans-serif'],

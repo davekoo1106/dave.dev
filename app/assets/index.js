@@ -16,6 +16,9 @@ import githubLineWhite from "./images/social-icons/github-line-white.svg";
 import linkedinLineWhite from "./images/social-icons/linkedin-line-white.svg";
 import linkedinLineBlack from "./images/social-icons/linkedin-line-black.svg";
 import headshot from "./images/headshot/headshot.jpg";
+import memojiComputer from "./images/memoji/bitmoji-200x200.png";
+import memojiJpg from "./images/memoji/memoji-200x200.jpg";
+import memojiWaving from "./images/memoji/memoji-waving.png";
 
 export {
     githubIcon,
@@ -35,5 +38,8 @@ export {
     githubLineWhite,
     linkedinLineWhite,
     linkedinLineBlack,
-    headshot
+    headshot,
+    memojiComputer,
+    memojiJpg,
+    memojiWaving
 };
