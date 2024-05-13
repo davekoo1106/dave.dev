@@ -8,29 +8,38 @@ import { ReactLenis, useLenis } from 'lenis/react';
 import { rxpressThumb, previewArrow, githubIcon } from "../../assets";
 
 
+
 export const HoverImageLinks = () => {
     const lenis = useLenis(({ scroll }) => {
     })
         return (
             <ReactLenis root>
-                
+
+
                     <div className="flex flex-col py-[150px]">
                         <div className="my-4 pl-[390px]">
                             <h1 className="font-worksansbold text-[30px] text-header">PROJECTS</h1>
+                            
                         </div>
 
                         <section>
-                            <div className="px-40">
+                            <div className="px-[390px]">
                                 <Link
-                                    heading="Nova Financial"
-                                    subheading="All in one financial Management Platform"
-                                    // imgSrc="/assets/images/project-thumb/rxpress.jpg"
+                                    heading="Nova"
+                                    subheading="All-in-one financial Management Platform"
+                                    // imgSrc={rxpressThumb}
                                     href="#"
                                 />
                                 <Link
-                                    heading="Nova Financial"
-                                    subheading="All in one financial Management Platform"
-                                    // imgSrc={rxpressThumb}
+                                    heading="RxPress"
+                                    subheading="Prescription Delivery Platform"
+                                    // imgSrc=""
+                                    href="#"
+                                />
+                                <Link
+                                    heading="Opus-Space"
+                                    subheading="Creative Design Agency"
+                                    // imgSrc=""
                                     href="#"
                                 />
                             </div>
@@ -76,7 +85,7 @@ export const HoverImageLinks = () => {
                 onMouseMove={handleMouseMove}
                 initial="initial"
                 whileHover="whileHover"
-                className="group relative flex items-center justify-between border-b-2 border-neutral-700 py-4 transition-colors duration-500 hover:border-neutral-50 md:py-8"
+                className="group relative flex items-center justify-between border-b-2 border-neutral-700 py-4 transition-colors duration-500 hover:border-black md:py-8"
             >
             <div>
                 <motion.span
@@ -89,13 +98,13 @@ export const HoverImageLinks = () => {
                     staggerChildren: 0.075,
                     delayChildren: 0.25,
                     }}
-                    className="relative z-10 block text-4xl font-bold text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50 md:text-6xl"
+                    className="relative z-10 block text-4xl font-bold font-worksansbold text-text transition-colors duration-500 group-hover:text-black md:text-5xl"
                 >
                     {heading.split("").map((l, i) => (
                 <motion.span
                     variants={{
-                    initial: { x: 0 },
-                    whileHover: { x: 16 },
+                        initial: { x: 0 },
+                        whileHover: { x: 16 },
                     }}
                     transition={{ type: "spring" }}
                     className="inline-block"
@@ -105,6 +114,9 @@ export const HoverImageLinks = () => {
                 </motion.span>
                 ))}
             </motion.span>
+            <span className="relative z-10 mt-2 block text-base text-worksans text-text transition-colors duration-500 group-hover:text-black">
+            {subheading}
+            </span>
             </div>
             <motion.img
                 style={{
@@ -114,13 +126,13 @@ export const HoverImageLinks = () => {
                 translateY: "-50%",
                 }}
                 variants={{
-                initial: { scale: 0, rotate: "-12.5deg" },
-                whileHover: { scale: 1, rotate: "12.5deg" },
+                initial: { scale: 0, rotate: "0" },
+                whileHover: { scale: 1, rotate: "0" },
                 }}
-                transition={{ type: "spring" }}
+                transition={{ type: "spring", bounce: 0.10 }}
                 src={imgSrc}
                 className="absolute z-0 h-24 w-32 rounded-lg object-cover md:h-48 md:w-64"
-                alt={`Image representing a link for ${heading}`}
+                // alt={`Image representing a link for ${heading}`}
             />
             <motion.div
                 variants={{
@@ -136,10 +148,9 @@ export const HoverImageLinks = () => {
                 transition={{ type: "spring" }}
                 className="relative z-10 p-4"
             >
-            <FiArrowRight className="text-5xl" />
-      </motion.div>
-
-            </motion.a>
+            <FiArrowRight className="text-5xl group-hover:text-black" />
+        </motion.div>
+        </motion.a>
         )
     }
 

@@ -12,7 +12,7 @@ export default function Hero() {
 
         return (
             <ReactLenis root>
-                <div className="flex items-center justify-center bg-background h-dvh ">
+                <div className="flex items-center justify-center h-dvh ">
                     <div className="flex flex-col">
         
                             <div className="flex gap-14">

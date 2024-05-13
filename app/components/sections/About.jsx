@@ -6,7 +6,7 @@ import { memojiComputer, memojiJpg } from "../../assets/";
 export default function About() {
     return (
         <main>
-            <div className="max-w-[1440px] pl-[390px] py-[150px]">
+            <div className="pl-[390px] py-[150px]">
                 <h1 className="font-worksansbold text-[28px] text-header">WHO AM I?</h1>
                 <div className="flex justify-evenl gap-40">
                     <div className="w-[500px] pt-2">
