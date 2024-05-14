@@ -16,34 +16,37 @@ export const HoverImageLinks = () => {
             <ReactLenis root>
 
 
-                    <div className="flex flex-col py-[150px]">
-                        <div className="my-4 pl-[390px]">
-                            <h1 className="font-worksansbold text-[30px] text-header">PROJECTS</h1>
-                            
-                        </div>
-
-                        <section>
-                            <div className="px-[390px]">
-                                <Link
-                                    heading="Nova"
-                                    subheading="All-in-one financial Management Platform"
-                                    // imgSrc={rxpressThumb}
-                                    href="#"
-                                />
-                                <Link
-                                    heading="RxPress"
-                                    subheading="Prescription Delivery Platform"
-                                    // imgSrc=""
-                                    href="#"
-                                />
-                                <Link
-                                    heading="Opus-Space"
-                                    subheading="Creative Design Agency"
-                                    // imgSrc=""
-                                    href="#"
-                                />
+                    <div className="flex flex-col pb-[150px]">
+                        <div className="flex flex-row">
+                            <div className="my-4 pl-[600px]">
+                                <h1 className="font-worksansbold text-header text-[40px]">PROJECTS</h1>
+                                <h1 className="font-worksansbold text-header text-[40px] opacity-60 mt-[-20px]">PROJECTS</h1>
+                                <h1 className="font-worksansbold text-header text-[40px] opacity-40 mt-[-20px]">PROJECTS</h1>
                             </div>
-                        </section>
+
+                            <section>
+                                <div className="pl-[50px]">
+                                    <Link
+                                        heading="Nova"
+                                        subheading="All-in-one financial Management Platform"
+                                        // imgSrc={rxpressThumb}
+                                        href="#"
+                                    />
+                                    <Link
+                                        heading="RxPress"
+                                        subheading="Prescription Delivery Platform"
+                                        // imgSrc=""
+                                        href="#"
+                                    />
+                                    <Link
+                                        heading="Opus-Space"
+                                        subheading="Creative Design Agency"
+                                        // imgSrc=""
+                                        href="#"
+                                    />
+                                </div>
+                            </section>
+                        </div>
                     </div>
                     
                 </ReactLenis>
@@ -85,7 +88,7 @@ export const HoverImageLinks = () => {
                 onMouseMove={handleMouseMove}
                 initial="initial"
                 whileHover="whileHover"
-                className="group relative flex items-center justify-between border-b-2 border-neutral-700 py-4 transition-colors duration-500 hover:border-black md:py-8"
+                className="group relative flex items-center justify-between border-b-2 border-neutral-700 py-4 transition-colors duration-500 hover:border-black md:py-6"
             >
             <div>
                 <motion.span

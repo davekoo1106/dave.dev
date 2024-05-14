@@ -12,24 +12,17 @@ export default function Hero() {
 
         return (
             <ReactLenis root>
-                <div className="flex items-center justify-center h-dvh ">
+                <div className="flex items-center pt-20 justify-center">
                     <div className="flex flex-col">
         
-                            <div className="flex gap-14">
+                            <div className="gap-14">
                                 <div>
                                     <h1 className="mb-[20px] text-[75px] font-worksansbold text-transparent bg-clip-text  bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-400 animate-text">Front-End React<br/>Developer</h1>
-                                    <h2 className="font-worksans text-[20px] w-[700px] text-text p-2">Hey! My name is Dave, A passionate Front-End React Developer combining code, business, and design to create lasting products and experiences.
-                                    </h2>
-                                </div>
-                                <div>
-                                    <Image 
-                                        src={headshot}
-                                        className="w-[380px] rounded-full border border-black"
-                                    />
+                                    <h2 className="font-worksans text-[20px] w-[700px] text-text p-2">Hey! My name is Dave, A passionate Front-End React Developer combining code, business, and design to create lasting products and experiences.</h2>
                                 </div>
                             </div>
 
-                            <div className="flex gap-6">
+                            <div className="flex gap-6 pt-12 pl-2">
                                 <div className="mb-4">
                                     <Link className="bg-header text-[15px] text-white font-worksanssemibold p-3 rounded-lg hover:underline hover:bg-blue-600" target="_blank" href={'mailto:dave.koo@outlook.com'}>Let's Chat!</Link>
                                 </div>
