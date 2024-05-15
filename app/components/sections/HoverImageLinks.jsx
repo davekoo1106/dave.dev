@@ -16,16 +16,16 @@ export const HoverImageLinks = () => {
             <ReactLenis root>
 
 
-                    <div className="flex flex-col pb-[150px]">
-                        <div className="flex flex-row">
-                            <div className="my-4 pl-[600px]">
-                                <h1 className="font-worksansbold text-header text-[40px]">PROJECTS</h1>
-                                <h1 className="font-worksansbold text-header text-[40px] opacity-60 mt-[-20px]">PROJECTS</h1>
-                                <h1 className="font-worksansbold text-header text-[40px] opacity-40 mt-[-20px]">PROJECTS</h1>
+                    <div className="md:flex md:flex-col md:pb-[150px] bg-background">
+                        <div className="md:flex md:flex-row">
+                            <div className="md:my-4 md:pl-[600px]">
+                                <h1 className="font-worksansbold text-header md:text-[40px]">PROJECTS</h1>
+                                {/* <h1 className="font-worksansbold text-header text-[40px] opacity-60 mt-[-20px]">PROJECTS</h1>
+                                <h1 className="font-worksansbold text-header text-[40px] opacity-40 mt-[-20px]">PROJECTS</h1> */}
                             </div>
 
                             <section>
-                                <div className="pl-[50px]">
+                                <div className="md:pl-[50px]">
                                     <Link
                                         heading="Nova"
                                         subheading="All-in-one financial Management Platform"
@@ -36,13 +36,14 @@ export const HoverImageLinks = () => {
                                         heading="RxPress"
                                         subheading="Prescription Delivery Platform"
                                         // imgSrc=""
-                                        href="#"
+                                        href="https://rxpress-web.vercel.app/"
                                     />
                                     <Link
                                         heading="Opus-Space"
-                                        subheading="Creative Design Agency"
+                                        subheading="Creative Web Design Agency"
                                         // imgSrc=""
-                                        href="#"
+                                        href="https://www.opusspace.ca/"
+
                                     />
                                 </div>
                             </section>
@@ -101,7 +102,8 @@ export const HoverImageLinks = () => {
                     staggerChildren: 0.075,
                     delayChildren: 0.25,
                     }}
-                    className="relative z-10 block text-4xl font-bold font-worksansbold text-text transition-colors duration-500 group-hover:text-black md:text-5xl"
+                    className="relative z-10 block text-4xl font-bold font-worksansbold text-text transition-colors duration-500 group-hover:text-black md:text-4xl"
+                    target="_blank"
                 >
                     {heading.split("").map((l, i) => (
                 <motion.span
@@ -133,8 +135,8 @@ export const HoverImageLinks = () => {
                 whileHover: { scale: 1, rotate: "0" },
                 }}
                 transition={{ type: "spring", bounce: 0.10 }}
-                src={imgSrc}
-                className="absolute z-0 h-24 w-32 rounded-lg object-cover md:h-48 md:w-64"
+                // src={imgSrc}
+                // className="absolute z-0 h-24 w-32 rounded-lg object-cover md:h-48 md:w-64"
                 // alt={`Image representing a link for ${heading}`}
             />
             <motion.div

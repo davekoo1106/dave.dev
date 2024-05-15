@@ -12,18 +12,18 @@ export default function Hero() {
 
         return (
             <ReactLenis root>
-                <div className="flex items-center pt-20 justify-center">
+                <div className="flex items-center justify-center bg-background h-full pt-[100px]">
                     <div className="flex flex-col">
         
                             <div className="gap-14">
                                 <div>
                                     <h1 className="mb-[20px] text-[75px] font-worksansbold text-transparent bg-clip-text  bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-400 animate-text">Front-End React<br/>Developer</h1>
-                                    <h2 className="font-worksans text-[20px] w-[700px] text-text p-2">Hey! My name is Dave, A passionate Front-End React Developer combining code, business, and design to create lasting products and experiences.</h2>
+                                    <h2 className="font-worksans text-[20px] w-[700px] text-paragraph p-2">Hey! 👋 My name is Dave, A passionate Front-End React Developer combining code, business, and design to create lasting products and experiences.</h2>
                                 </div>
                             </div>
 
-                            <div className="flex gap-6 pt-12 pl-2">
-                                <div className="mb-4">
+                            <div className="flex gap-6 pt-12 pl-2 items-center">
+                                <div className="">
                                     <Link className="bg-header text-[15px] text-white font-worksanssemibold p-3 rounded-lg hover:underline hover:bg-blue-600" target="_blank" href={'mailto:dave.koo@outlook.com'}>Let's Chat!</Link>
                                 </div>
                                 <Link href={'https://www.linkedin.com/in/dave-koo/'} target="_blank">
@@ -35,39 +35,39 @@ export default function Hero() {
                             </div>
                         
                         <div className="flex flex-row mt-[50px] gap-[30px]">
-                            <h2 className="flex items-center font-worksansmedium text-[18px] text-text">Tech Stack |</h2>
-                            <div className="flex gap-[8px]">
-                                <Link href={'#'}>
-                                    <Image className="w-[40px]" src={htmlIcon} alt="HTML5 Logo"/>
-                                </Link>
-                                <Link href={'#'}>
-                                    <Image className="w-[40px]" src={cssIcon} alt="CSS3 Logo"/>
-                                </Link>
-                            </div>
-                            <div className="flex gap-[8px]">
-                                <Link href={'#'}>
-                                    <Image className="w-[40px]" src={javascriptIcon} alt="JavaScript Logo"/>
-                                </Link>
-                                <Link href={'#'}>
-                                    <Image className="w-[40px]" src={typescriptIcon} alt="TypeScript Logo"/>
-                                </Link>
-                            </div>
-                            <div className="flex gap-[8px]">
-                                <Link href={'#'}>
-                                    <Image className="w-[40px]" src={reactIcon} alt="React.js Logo"/>
-                                </Link>
-                                <Link href={'#'}>
-                                    <Image className="w-[40px]" src={nextIcon} alt="Next.js Logo"/>
-                                </Link>
-                            </div>
-                            <div className="flex gap-[8px]">
-                                <Link href={'#'}>
-                                    <Image className="w-[40px]" src={tailwindIcon} alt="Tailwind CSS Logo"/>
-                                </Link>
-                                <Link href={'#'}>
-                                    <Image className="w-[40px]" src={sassIcon} alt="SCSS"/>
-                                </Link>
-                            </div>
+                            <h2 className="flex items-center font-worksansmedium text-[18px] text-center text-text">Tech Stack |</h2>
+                                <div className="gap-[8px] flex flex-row justify-center">
+                                    <Link href={'#'}>
+                                        <Image className="w-[40px]" src={htmlIcon} alt="HTML5 Logo"/>
+                                    </Link>
+                                    <Link href={'#'}>
+                                        <Image className="w-[40px] " src={cssIcon} alt="CSS3 Logo"/>
+                                    </Link>
+                                </div>
+                                <div className="gap-[8px] flex flex-row justify-center">
+                                    <Link href={'#'}>
+                                        <Image className="w-[40px]" src={javascriptIcon} alt="JavaScript Logo"/>
+                                    </Link>
+                                    <Link href={'#'}>
+                                        <Image className="w-[40px]" src={typescriptIcon} alt="TypeScript Logo"/>
+                                    </Link>
+                                </div>
+                                <div className="gap-[8px] flex flex-row justify-center">
+                                    <Link href={'#'}>
+                                        <Image className="w-[40px]" src={reactIcon} alt="React.js Logo"/>
+                                    </Link>
+                                    <Link href={'#'}>
+                                        <Image className="w-[40px]" src={nextIcon} alt="Next.js Logo"/>
+                                    </Link>
+                                </div>
+                                <div className="gap-[8px] flex flex-row justify-center">
+                                    <Link href={'#'}>
+                                        <Image className="w-[40px]" src={tailwindIcon} alt="Tailwind CSS Logo"/>
+                                    </Link>
+                                    <Link href={'#'}>
+                                        <Image className="w-[40px]" src={sassIcon} alt="SCSS"/>
+                                    </Link>
+                                </div>
                         </div>
                     </div>
                 </div>

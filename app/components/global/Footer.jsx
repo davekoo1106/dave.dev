@@ -6,8 +6,8 @@ import { githubLineBlack, linkedinLineBlack } from "../../assets/";
 export default function Footer() {
     return (
         <main>
-            <div className="bg-background py-20 flex flex-row pl-[390px]">
-                <div className="flex flex-row gap-[500px]">
+            <div className="bg-background md:py-20 md:flex md:flex-row md:pl-[390px]">
+                <div className="md:flex md:flex-row md:gap-[500px] flex flex-col-reverse">
                     <div className="flex flex-col">
                         <h3 className="text-[26px] font-worksanssemibold">My Links</h3>
                         <div className="flex flex-row gap-6 pt-4 pb-24">
