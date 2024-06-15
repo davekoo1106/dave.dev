@@ -17,8 +17,8 @@ export const Projects = () => {
                 <main className="flex items-center justify-center">
                     <div className="flex flex-col">
 
-                        <div className="text-center my-4">
-                            <h1 className="font-worksansbold text-[30px] text-text">Projects</h1>
+                        <div className="text-center my-10">
+                            <h1 className="font-worksansbold md:text-[40px] text-header">PROJECTS</h1>
                         </div>
 
                         <section>
@@ -40,13 +40,13 @@ export const Projects = () => {
 
                       
 
-                        {/* <div className="flex gap-20">
-                            <div className="flex flex-col h-full w-full bg-white rounded-lg dark:bg-gray-800 hover:-translate-y-2 hover:ease-in-out hover:duration-500">
-                                <Image className="border border-gray-200 rounded-md" src={ rxpressThumb }/>
+                        <div className="flex gap-10 mb-20">
+                            <div className="flex flex-col h-full w-full bg-white rounded-lg dark:bg-gray-800">
+                                <Image className="border border-gray-200 rounded-md w-[600px]" src={ rxpressThumb }/>
                                 <div className="">
                                     <div className="flex justify-between mt-2 mb-2">
-                                        <p className="flex cursor-pointer underline underline-offset-4 gap-2 font-worksans"><Image className="w-6" src={previewArrow}/>View Site</p> 
-                                        <p className="flex cursor-pointer underline underline-offset-4 gap-2 font-worksans"><Image className="w-6" src={githubIcon}/>View Code</p>
+                                        <p className="flex cursor-pointer underline underline-offset-4 gap-2 font-worksans"><Link className="flex items-center gap-2 hover:-translate-y-1 hover:ease-in-out hover:duration-500" href={'https://rxpress-web.vercel.app/'} target="blank_"><Image className="w-6" src={previewArrow}/>View Site</Link></p> 
+                                        <p className="flex cursor-pointer underline underline-offset-4 gap-2 font-worksans"><Link className="flex items-center gap-2 hover:-translate-y-1 hover:ease-in-out hover:duration-500" href={'https://github.com/rikkilanz/rxpress-web'} target="blank_"><Image className="w-6" src={githubIcon}/>View Code</Link></p>
                                     </div>
                                     <h1 className="text-[28px] font-worksanssemibold text-secondary">RxPress</h1>
                                     <p className="text-[18px] font-worksans text-secondary">Prescription Delivery Web Platform</p>
@@ -58,44 +58,27 @@ export const Projects = () => {
                                     
                                 </div>
                             </div>
-        
-                            <div className="flex flex-col h-full w-full bg-white rounded-lg dark:bg-gray-800 hover:-translate-y-2 hover:ease-in-out hover:duration-500">
-                                <Image className="border border-gray-200 rounded-md" src={ rxpressThumb }/>
-                                <div className="flex justify-between mt-2 mb-2">
-                                        <p className="flex cursor-pointer underline underline-offset-4 gap-2 font-worksans"><Image className="w-6" src={previewArrow}/>View Site</p> 
-                                        <p className="flex cursor-pointer underline underline-offset-4 gap-2 font-worksans"><Image className="w-6" src={githubIcon}/>View Code</p>
-                                    </div>
+
+                            <div className="flex flex-col h-full w-full bg-white rounded-lg dark:bg-gray-800">
+                                <Image className="border border-gray-200 rounded-md w-[600px]" src={ rxpressThumb }/>
                                 <div className="">
-                                    <h1 className="text-[28px] font-worksanssemibold text-secondary pt-2">Nova Financial</h1>
-                                    <p className="text-[18px] font-worksans text-secondary">Prescription Delivery Web Platform</p>
-                                </div>
-                                <div className="flex gap-4 mt-2">
+                                    <div className="flex justify-between mt-2 mb-2">
+                                        <p className="flex cursor-pointer underline underline-offset-4 gap-2 font-worksans"><Link className="flex items-center gap-2 hover:-translate-y-1 hover:ease-in-out hover:duration-500" href={'https://opus-space.vercel.app/'} target="blank_"><Image className="w-6" src={previewArrow}/>View Site</Link></p> 
+                                        <p className="flex cursor-pointer underline underline-offset-4 gap-2 font-worksans"><Link className="flex items-center gap-2 hover:-translate-y-1 hover:ease-in-out hover:duration-500" href={'https://github.com/rikkilanz/opus-space'} target="blank_"><Image className="w-6" src={githubIcon}/>View Code</Link></p>
+                                    </div>
+                                    <h1 className="text-[28px] font-worksanssemibold text-secondary">Opus Space</h1>
+                                    <p className="text-[18px] font-worksans text-secondary">Creative Web Design Agency</p>
+                                    <div className="flex gap-4 mt-2">
                                         <p className="bg-slate-500 font-worksans text-white py-1 px-4 rounded-xl text-[13px]">NextJs</p>
                                         <p className="bg-slate-500 font-worksans text-white py-1 px-4 rounded-xl text-[13px]">Tailwind CSS</p>
-                                        <p className="bg-slate-500 font-worksans text-white py-1 px-4 rounded-xl text-[13px]">SQL</p>
                                     </div>
+                                    
+                                </div>
                             </div>
         
                         </div>
                         
-                        <div className="flex gap-20">
-        
-                            <div className="flex flex-col h-full w-full bg-white rounded-lg dark:bg-gray-800 hover:-translate-y-2 hover:ease-in-out hover:duration-500">
-                                <Image className="border border-gray-200 rounded-md" src={ rxpressThumb }/>
-                                <div className="">
-                                    <h1 className="text-[28px] font-worksanssemibold text-secondary pt-2">RxPress</h1>
-                                    <p className="text-[18px] font-worksans text-secondary">Prescription Delivery Web Platform</p>
-                                </div>
-                            </div>
-        
-                            <div className="flex flex-col h-full w-full bg-white rounded-lg dark:bg-gray-800 hover:-translate-y-2 hover:ease-in-out hover:duration-500">
-                                <Image className="border border-gray-200 rounded-md" src={ rxpressThumb }/>
-                                <div className="">
-                                    <h1 className="text-[28px] font-worksanssemibold text-secondary pt-2">RxPress</h1>
-                                    <p className="text-[18px] font-worksans text-secondary">Prescription Delivery Web Platform</p>
-                                </div>
-                            </div>
-                        </div> */}
+                        
                        
         
                     </div>

@@ -15,8 +15,8 @@ export default function Home() {
       <Header/>
       <Hero/>
       <About/>
-      {/* <Projects/> */}
-      <Hover/>
+      <Projects/>
+      {/* <Hover/> */}
       <Footer/>
     </main>
   );

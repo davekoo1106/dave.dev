@@ -34,7 +34,7 @@ export const HoverImageLinks = () => {
                                     />
                                     <Link
                                         heading="RxPress"
-                                        subheading="Prescription Delivery Platform"
+                                        subheading="Prescription Delivery Service"
                                         // imgSrc=""
                                         href="https://rxpress-web.vercel.app/"
                                     />

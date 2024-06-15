@@ -17,7 +17,7 @@ export default function About() {
                         <div className="md:w-[500px] md:pt-2">
                             <h3 className="font-worksansbold md:text-[26px] mb-4">I'm a Front-End Developer driven by curiosity and passion, always looking to learn</h3>
                             <p className="font-worksansmedium md:text-[18px] text-paragraph">My number 1 passion is building things. Whether that be dabbling in app development in my spare time or working on my next project, I'm a builder at heart.</p>
-                            <p className="font-worksansmedium md:text-[18px] text-paragraph pt-5">My name stack currently is React/Next.js combined with Tailwind CSS and SQL for the backend! However, I'm always open to learning new technologies.</p>
+                            <p className="font-worksansmedium md:text-[18px] text-paragraph pt-5">My name stack currently is React/Next.js combined with Tailwind CSS and MongoDB for the backend! However, I'm always open to learning new technologies.</p>
                             <p className="font-worksansmedium md:text-[18px] text-paragraph pt-5">I've got a lot more to share and am always down to chat about new opportunities!</p>
                         </div>
                         {/* <div className="pr-[500px]">
